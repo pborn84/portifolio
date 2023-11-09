@@ -1,46 +1,17 @@
 *{margin: 0; padding: 0; list-style: none; }
 
-/*-------------------------------MOBILE-------------------------------*/
-@media screen and (max-width: 320px) {
-header{margin: 0 auto; padding: 5px 10px 20px; height: 40px; display: block; background-color: #1e252d;}
-.menu{margin: 0 auto; display: none;}
-.hamburguerMenu{margin: -40px 260px; width: 30px; display: block;}
-.display{margin: 0 -162px; width: 210%; height: auto;}
-.logo {margin: 0 0 0 -13px; padding: 14px 10px; height: 24px; display: block;}
-h1{width: 90%; font-family: "Oswald", sans-serif; font-size: 3rem; font-weight: 800; margin: 20px auto 60px; line-height: 42px; text-align: center; }
-h2{width: 90%; font-family: "Oswald", sans-serif; font-size: 1.8rem; font-weight: lighter; margin: 20px auto 20px; line-height: 34px;}
-h3{margin: 0 auto; width: 90%; font-family: "Oswald", sans-serif; font-size: 2.3rem; color: #fff;font-weight: lighter;}
-p{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem;}
-.text{width: 100%; margin: 30px auto 5px; font-family: "Roboto"; font-size: 1.08rem; line-height: 32px; color: #fff;}
-.pfooter{margin: 0 auto; font-size: 0.8rem; color: #fff;position: relative;top: 30px;}
-.cabecalho{margin: 0 auto 5px; height: auto; display: block;}
-section{margin: -68px auto 90px; height: auto; display: block;}
-ul{margin: 0 20px; height: auto; display: block;}
-.box{margin: 0 auto 20px; padding: 20px; height: 258px; text-align: center; border: 1px solid #1e252d; border-radius: 10px; background-color:#423f3f;}
-.boxImage{margin: 0 auto 20px; max-width: 100%; height: auto; text-align: center; border: 1px solid #1e252d; border-radius: 10px; background-color:#423f3f;}
-.bimage{margin: 0 auto; padding: 5px; max-width: 90%; height: auto; text-align: center; border-radius: 10px;}
-.wpicon{width: 90px; height: auto; margin: 0 auto -20px; text-align: center;position: relative;top: -130px; right: -214px}
-.astro{width: 260px; height: auto; margin: 0 auto 60px; text-align: center;position: relative;top: 11px; right: -33px;}
-.btn{width: 160px; height: 30px; margin: -62px 40px 0px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #069206; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
-footer{margin: 0 auto; width: 100%; height: 70px; text-align: center; background-color: #222;}
-
-}
-
-
 /*-------------------------------DESKTOP-------------------------------*/
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 500px) {
 body{overflow-x: hidden;}
 header{margin: 0 auto; height: 60px; display: block; background-color: #1e252d;}
 .logo{margin: 10px 60px; height: 40px;}
 .hamburguerMenu{display: none;}
 .menu{margin: 0 500px; display: ruby;}
-
 h1{width: 90%; font-family: "Oswald", sans-serif; font-size: 2.4rem; font-weight: 800; margin: 20px auto 60px; line-height: 42px; text-align: center; }
 h2{width: 90%; font-family: "Oswald", sans-serif; font-size: 1.8rem; font-weight: lighter; margin: 20px auto 20px; line-height: 34px;}
 h3{margin: 0 auto; width: 90%; font-family: "Oswald", sans-serif; font-size: 2.3rem; color: #fff;font-weight: lighter;}
 p{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem;}
 a{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem; color:#7b7777; text-decoration: none;}
-
 .text{width: 100%; margin: 30px auto 5px; font-family: "Roboto"; font-size: 1.08rem; line-height: 32px; color: #fff;}
 .pfooter{margin: 0 auto; font-size: 0.8rem; color: #fff;position: relative;top: 30px;}
 .display{margin: 0 auto; width: 100%; height: auto;}
@@ -56,7 +27,6 @@ a{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem; col
 .desevBlo02{margin: -450px 780px; width: 40px; height: 390px; display: block;}
 .txtdesevBlo02Titulo{margin: 0 20px 30px; width: 333px; display: block; }
 .txtdesevBlo02Texto{margin: 0 auto; width: 400px; display: block; }
-
 .desenvolvimento{margin: 0 auto 510px; height: auto; display: block;}
 ul{margin: 0 180px; position: relative; padding: 0 300px; top: -44px; display: inline;}
 li{margin: 0 20px; position: relative; /*! top: -24px; */ display: inline;font-size: 1.2rem;font-style: normal;font-family: arial;text-decoration: none;}
@@ -66,13 +36,37 @@ ul{margin: 0 -230px; width: 100%; display: block;}
 .boxImage{margin: 0 5px 20px; max-width: 100%; height: auto; text-align: center; border: 1px solid #1e252d; border-radius: 10px; display: inline-block; background-color:#423f3f;}
 .bimage{margin: 0 auto; padding: 5px; max-width: 90%; height: auto; text-align: center; border-radius: 10px;}
 .wpicon{width: 90px; height: auto; margin: 0 auto -20px; text-align: center;position: relative;top: -130px; right: -214px}
-
 .astro{width: 600px; height: auto; margin: 0 auto 60px; text-align: center; position: relative; top: 74px; right: -190px;}
 .btn{width: 160px; height: 30px; margin: -52px 570px 20px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #069206; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
-
 .btn:hover{width: 160px; height: 30px; margin: -52px 570px 20px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #064406; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
-
-
 footer{margin: 0 auto; width: 100%; height: 70px; text-align: center; background-color: #222;}
 
 }
+
+/*-------------------------------MOBILE-------------------------------*/
+
+@media screen and (max-width: 800px) {
+    header{margin: 0 auto; padding: 5px 10px 20px; height: 40px; display: block; background-color: #1e252d;}
+    .menu{margin: 0 auto; display: none;}
+    .hamburguerMenu{margin: -40px 260px; width: 30px; display: block;}
+    .display{margin: 0 -162px; width: 210%; height: auto;}
+    .logo {margin: 0 0 0 -13px; padding: 14px 10px; height: 24px; display: block;}
+    h1{width: 90%; font-family: "Oswald", sans-serif; font-size: 3rem; font-weight: 800; margin: 20px auto 60px; line-height: 42px; text-align: center; }
+    h2{width: 90%; font-family: "Oswald", sans-serif; font-size: 1.8rem; font-weight: lighter; margin: 20px auto 20px; line-height: 34px;}
+    h3{margin: 0 auto; width: 90%; font-family: "Oswald", sans-serif; font-size: 2.3rem; color: #fff;font-weight: lighter;}
+    p{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem;}
+    .text{width: 100%; margin: 30px auto 5px; font-family: "Roboto"; font-size: 1.08rem; line-height: 32px; color: #fff;}
+    .pfooter{margin: 0 auto; font-size: 0.8rem; color: #fff;position: relative;top: 30px;}
+    .cabecalho{margin: 0 auto 5px; height: auto; display: block;}
+    section{margin: -68px auto 90px; height: auto; display: block;}
+    ul{margin: 0 20px; height: auto; display: block;}
+    .imgDesevBlo01{margin: 0 auto; width: 94%; display: block; padding: 10px;}
+    .box{margin: 0 auto 20px; padding: 20px; height: 258px; text-align: center; border: 1px solid #1e252d; border-radius: 10px; background-color:#423f3f;}
+    .boxImage{margin: 0 auto 20px; max-width: 100%; height: auto; text-align: center; border: 1px solid #1e252d; border-radius: 10px; background-color:#423f3f;}
+    .bimage{margin: 0 auto; padding: 5px; max-width: 90%; height: auto; text-align: center; border-radius: 10px;}
+    .wpicon{width: 90px; height: auto; margin: 0 auto -20px; text-align: center;position: relative;top: -130px; right: -214px}
+    .astro{width: 94%; height: auto; margin: 0 auto 30%; text-align: center;position: relative;top: 11px; right: -10px;}
+    .btn{width: 160px; height: 30px; margin: -62px 40px 0px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #069206; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
+    footer{margin: 0 auto; width: 100%; height: 70px; text-align: center; background-color: #222;}
+}
+    
