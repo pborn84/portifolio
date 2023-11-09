@@ -61,6 +61,7 @@ p{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem;}
 .cabecalho{margin: 0 auto 5px; height: auto; display: block;}
 section{margin: -68px auto 90px; height: auto; display: block;}
 ul{margin: 0 20px; height: auto; display: block;}
+.devBloc01{display: none;}
 .imgDesevBlo01{margin: 0 auto; width: 55%; display: block; padding: 10px;}
 .box{margin: 0 auto 20px; padding: 20px; height: 258px; text-align: center; border: 1px solid #1e252d; border-radius: 10px; background-color:#423f3f;}
 .boxImage{margin: 0 auto 20px; max-width: 100%; height: auto; text-align: center; border: 1px solid #1e252d; border-radius: 10px; background-color:#423f3f;}
