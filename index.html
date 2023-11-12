@@ -11,6 +11,13 @@
     <title>Paulo Júnior</title>
 </head>
 <body>
+
+    <div class="gModal" onclick="fecharGaleria()">Visual
+        <span>X</span>e
+        <img src="" alt="">
+
+    </div>
+
     <header>
         <img class="logo" src="./img/logo.png" alt="logo">
         <img class="hamburguerMenu" src="./img/hamburger.png">
@@ -59,14 +66,14 @@
     <section>
         <h1>Galeria</h1>
         <ul>
-            <li class="boxImage"><h3>Identidade Visual</h3><img class="bimage" src="img/pj01.jpg" alt=""></li>
-            <li class="boxImage"><h3>Criação de Mapas</h3><img class="bimage" src="img/pj02.jpg" alt=""></li>
-            <li class="boxImage"><h3>Rede Social</h3><img class="bimage" src="img/pj03.jpg" alt=""></li>
-            <li class="boxImage"><h3>Embalagens</h3><img class="bimage" src="img/pj04.jpg" alt=""></li>
-            <li class="boxImage"><h3>Ebooks</h3><img class="bimage" src="img/pj05.jpg" alt=""></li>
-            <li class="boxImage"><h3>Logo Marca</h3><img class="bimage" src="img/pj06.jpg" alt=""></li>
-            <li class="boxImage"><h3>Panfletos</h3><img class="bimage" src="img/pj07.jpg" alt=""></li>
-            <li class="boxImage"><h3>Criação de ppt</h3><img class="bimage" src="img/pj08.jpg" alt=""></li>
+            <li class="boxImage"><h3>Identidade Visual</h3><img class="bimage" src="img/pj01.jpg" alt="" onclick="abrirGaleria('img/imgG01.jpg')"></li>
+            <li class="boxImage"><h3>Criação de Mapas</h3><img class="bimage" src="img/pj02.jpg" alt="" onclick="abrirGaleria('img/imgG02.jpg')"></li>
+            <li class="boxImage"><h3>Rede Social</h3><img class="bimage" src="img/pj03.jpg" alt="" onclick="abrirGaleria('img/imgG03.jpg')"></li>
+            <li class="boxImage"><h3>Embalagens</h3><img class="bimage" src="img/pj04.jpg" alt="" onclick="abrirGaleria('img/imgG04.jpg')"></li>
+            <li class="boxImage"><h3>Ebooks</h3><img class="bimage" src="img/pj05.jpg" alt="" onclick="abrirGaleria('img/imgG05.jpg')"></li>
+            <li class="boxImage"><h3>Logo Marca</h3><img class="bimage" src="img/pj06.jpg" alt="" onclick="abrirGaleria('img/imgG06.jpg')"></li>
+            <li class="boxImage"><h3>Panfletos</h3><img class="bimage" src="img/pj07.jpg" alt="" onclick="abrirGaleria('img/imgG07.jpg')"></li>
+            <li class="boxImage"><h3>Criação de ppt</h3><img class="bimage" src="img/pj08.jpg" alt="" onclick="abrirGaleria('img/imgG08.jpg')"></li>
             
             <!-- #region     
             <li class="boxImage"><h3>Mídia Impressas</h3><img class="bimage" src="img/pj09.jpg" alt=""></li>
@@ -82,5 +89,6 @@
     <footer>
         <p class="pfooter">&copy;Copyright - Paulo Júnior Marketing Online | Marketing e Publicidade Online</p>
     </footer>
+    <script src="./js/galeria.js"></script>
 </body>
 </html>

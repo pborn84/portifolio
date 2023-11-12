@@ -3,6 +3,9 @@
 /*-------------------------------DESKTOP-------------------------------*/
 @media screen and (min-width: 500px) {
 body{overflow-x: hidden;}
+.gModal{width: 92%; height: 100%; padding: 4%; background-color: #222222de; position: fixed; top: 0; left: 0; visibility: hidden; z-index: 2;}
+.gModal span{position: absolute; top: 20px; left: 1330px; color: #fff;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 2em; }
+.gModal img{width: 100%; height: 100%; object-fit: contain;}
 header{margin: 0 auto; height: 60px; display: block; background-color: #1e252d;}
 .logo{margin: 10px 60px; height: 40px;}
 .hamburguerMenu{display: none;}
@@ -34,7 +37,8 @@ li{margin: 0 20px; position: relative; /*! top: -24px; */ display: inline;font-s
 ul{margin: 0 -230px; width: 100%; display: block;}
 .box{margin: 0 auto 4px; padding: 50px; width: 20%; height: 270px; text-align: center; border: 1px solid #06015a; border-radius: 10px; background-color:#222;display: inline-grid;}
 .boxImage{margin: 0 5px 20px; max-width: 100%; height: auto; text-align: center; border: 1px solid #1e252d; border-radius: 10px; display: inline-block; background-color:#423f3f;}
-.bimage{margin: 0 auto; padding: 5px; max-width: 90%; height: auto; text-align: center; border-radius: 10px;}
+.bimage{margin: 0 auto; padding: 5px; max-width: 90%; height: auto; text-align: center; border-radius: 10px;  transition: transform 0.25s ease-in-out;}
+.bimage:hover{transform: scale(1.1);}
 .wpicon{width: 90px; height: auto; margin: 0 auto -20px; text-align: center;position: relative;top: -130px; right: -214px}
 .astro{width: 600px; height: auto; margin: 0 auto 60px; text-align: center; position: relative; top: 74px; right: -190px;}
 .btn{width: 160px; height: 30px; margin: -52px 570px 20px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #069206; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
@@ -47,6 +51,9 @@ footer{margin: 0 auto; width: 100%; height: 70px; text-align: center; background
 
 @media screen and (max-width: 800px) {
 body{overflow-x: hidden;}
+.gModal{width: 92%; height: 100%; padding: 4%; background-color: #222222de; position: fixed; top: 0; left: 0; visibility: hidden; z-index: 2;}
+.gModal span{position: absolute; top: 20px; left: 1330px; color: #fff;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 2em; }
+.gModal img{width: 100%; height: 100%; object-fit: contain;}
 header{margin: 0 auto; padding: 5px 10px 20px; height: 40px; display: block; background-color: #1e252d;}
 .menu{margin: 0 auto; display: none;}
 .hamburguerMenu{margin: -40px 264px; width: 10%; display: block;}
@@ -65,7 +72,8 @@ ul{margin: 0 20px; height: auto; display: block;}
 .imgDesevBlo01{margin: 0 auto; width: 55%; display: block; padding: 10px;}
 .box{margin: 0 auto 20px; padding: 20px; height: 258px; text-align: center; border: 1px solid #1e252d; border-radius: 10px; background-color:#423f3f;}
 .boxImage{margin: 0 auto 20px; max-width: 100%; height: auto; text-align: center; border: 1px solid #1e252d; border-radius: 10px; background-color:#423f3f;}
-.bimage{margin: 0 auto; padding: 5px; max-width: 90%; height: auto; text-align: center; border-radius: 10px;}
+.bimage{margin: 0 auto; padding: 5px; max-width: 90%; height: auto; text-align: center; border-radius: 10px; transition: transform 0.25s ease-in-out;}
+.bimage:hover{transform: scale(1.1);}
 .wpicon{width: 90px; height: auto; margin: 0 auto -20px; text-align: center;position: relative;top: -130px; right: -214px}
 .astro{width: 94%; height: auto; margin: 0 auto 30%; text-align: center;position: relative;top: 11px; right: -10px;}
 .btn{width: 55%; height: 30px; margin: -62px 10% 50px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #069206; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
