@@ -15,7 +15,7 @@ a{width: 90%; margin: 0 auto 5px; font-family: "Roboto"; font-size: 1.05rem; col
 .text{width: 100%; margin: 30px auto 5px; font-family: "Roboto"; font-size: 1.08rem; line-height: 32px; color: #fff;}
 .pfooter{margin: 0 auto; font-size: 0.8rem; color: #fff;position: relative;top: 30px;}
 .display{margin: 0 auto; width: 100%; height: auto;}
-.cabecalho{margin: 0 auto -20px; height: 900px; display: block; background-color: #1c0084;}
+.cabecalho{margin: 0 auto; height: 1230px; display: block; background-color: #1c0084;}
 .bloco1{margin: 0 8%; width: 30%; height: auto; display: block; position: relative}
 .txtBloco1{margin:40px 10px 0px; width: 80%; color: #fff;}
 .txtBloco2{margin:20px auto 20px; width: 90%; color: #fff;}
