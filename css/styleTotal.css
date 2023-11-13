@@ -45,6 +45,33 @@ ul{margin: 0 -230px; width: 100%; display: block;}
 .btn:hover{width: 160px; height: 30px; margin: -52px 570px 20px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #064406; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
 footer{margin: 0 auto; width: 100%; height: 70px; text-align: center; background-color: #222;}
 
+/* Apenas o container */
+.container {display: flex;align-items: center;justify-content: center;min-width: 100%;min-height: 100%;}
+  
+/* Aqui comença o Toggler On/Off */
+.toggle-wrapper {display: flex;align-items: center;}
+  
+/* Texto que decidi adicionar como exemplo */
+.toggle-wrapper .description {margin-left: 1.5rem; font-weight: bold; letter-spacing: 0.2rem; font-size: 1.4rem; font-family: Arial, Helvetica, sans-serif;}
+  
+/* Esconde o checkbox */
+.switch > .hidden-toggle {display: none;}
+/* Caixinha onde o botão desliza */
+.switch > .slider {background: #e0e2db; border: 0.1rem solid #bbb; cursor: pointer; border-radius: 2rem; transition: all 300ms ease-in-out; width: 4rem; height: 2rem; position: relative; box-shadow: inset -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.1); Top: -86px; Left: 590px;}
+  /* O botão redondinho */
+  .switch > .slider > .button {content: ""; position: absolute; width: 1rem; height: 1rem; background: #189914; top: 0.4rem; left: 0.4rem; transition: all 300ms ease-in-out; border-radius: 50%; z-index: 2; box-shadow: inset -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);}
+  
+  /* Texto ON ou OFF (começa off) */
+  .switch > .slider:after {position: absolute; top: 50%; right: 1rem; transform: translate(0, -50%); font-size: 0.8rem; line-height: 1.4rem; color: #444; font-weight: bold; z-index: 1; transition: all 300ms ease-in-out; content: "BRA";  font-family: Arial, Helvetica, sans-serif;}
+    
+  /* Slider ON */
+  .switch > .hidden-toggle:checked ~ .slider {background: #f71f1f; box-shadow: inset 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(50, 0, 150, 0.2);}
+  
+  /* Botão ON */
+  .switch > .hidden-toggle:checked ~ .slider > .button { left: 2.8rem; box-shadow: inset 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2); background: #e0e2db;}
+  
+  /* Texto ON */
+  .switch > .hidden-toggle:checked ~ .slider:after {right: 1.4rem; color: #f1f1ff; content: "ENG";}
 }
 
 /*-------------------------------MOBILE-------------------------------*/
@@ -78,5 +105,38 @@ ul{margin: 0 20px; height: auto; display: block;}
 .astro{width: 94%; height: auto; margin: 0 auto 30%; text-align: center;position: relative;top: 11px; right: -10px;}
 .btn{width: 55%; height: 30px; margin: -62px 10% 50px; padding: 10px 38px; border-radius: 10px solid; border-color: #fff; text-align: center; background-color: #069206; display: block; position: absolute; z-index: 5;font-family: "Oswald", sans-serif; font-size: 1.3rem; font-weight: 600; list-style: none; text-decoration-line: none; color: #fff;}
 footer{margin: 0 auto; width: 100%; height: 70px; text-align: center; background-color: #222;}
+
+
+/* Apenas o container */
+.container {display: flex;align-items: center;justify-content: center;min-width: 100%;min-height: 100%;}
+  
+/* Aqui comença o Toggler On/Off */
+.toggle-wrapper {display: flex;align-items: center;}
+  
+/* Texto que decidi adicionar como exemplo */
+.toggle-wrapper .description {margin-left: 1.5rem; font-weight: bold; letter-spacing: 0.2rem; font-size: 1.4rem; font-family: Arial, Helvetica, sans-serif;}
+  
+/* Esconde o checkbox */
+.switch > .hidden-toggle {display: none;}
+/* Caixinha onde o botão desliza */
+.switch > .slider {background: #e0e2db; border: 0.1rem solid #bbb; cursor: pointer; border-radius: 2rem; transition: all 300ms ease-in-out; width: 4rem; height: 2rem; position: relative; box-shadow: inset -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(0, 0, 0, 0.1); Top: -46px; Left: 110px;}
+  /* O botão redondinho */
+  .switch > .slider > .button {content: ""; position: absolute; width: 1rem; height: 1rem; background: #189914; top: 0.4rem; left: 0.4rem; transition: all 300ms ease-in-out; border-radius: 50%; z-index: 2; box-shadow: inset -0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);}
+  
+  /* Texto ON ou OFF (começa off) */
+  .switch > .slider:after {position: absolute; top: 50%; right: 1rem; transform: translate(0, -50%); font-size: 0.8rem; line-height: 1.4rem; color: #444; font-weight: bold; z-index: 1; transition: all 300ms ease-in-out; content: "BRA";  font-family: Arial, Helvetica, sans-serif;}
+    
+  /* Slider ON */
+  .switch > .hidden-toggle:checked ~ .slider {background: #f71f1f; box-shadow: inset 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2), 0 0 1rem rgba(50, 0, 150, 0.2);}
+  
+  /* Botão ON */
+  .switch > .hidden-toggle:checked ~ .slider > .button { left: 2.8rem; box-shadow: inset 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2); background: #e0e2db;}
+  
+  /* Texto ON */
+  .switch > .hidden-toggle:checked ~ .slider:after {right: 1.4rem; color: #f1f1ff; content: "ENG";}
+}
+
+
+
 }
     

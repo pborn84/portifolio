@@ -8,6 +8,8 @@
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Roboto&display=swap');
     </style>
+    <script src="./js/galeria.js" async></script>
+    <script src="./js/langage.js" async></script>
     <title>Paulo Júnior</title>
 </head>
 <body>
@@ -20,17 +22,31 @@
 
     <header>
         <img class="logo" src="./img/logo.png" alt="logo">
-        <img class="hamburguerMenu" src="./img/hamburger.png">
+        <!--<img class="hamburguerMenu" src="./img/hamburger.png">-->
         <nav class="menu"><ul><li><a href="">Home</a></li><li><a href="">Quem sou eu!</a></li><li><a href="">Serviços</a></li><li><a href="">Galeria</a></li></ul></nav>
+
+    <div class="container">
+
+        <div class="toggle-wrapper">
+          <label class="switch">
+            <input type="checkbox" class="hidden-toggle" id="languageToggle" />
+            <div class="slider">
+              <div class="button"></div>
+            </div>
+          </label>
+        </div>
+      
+      </div>
+    
     </header>
     <article class="cabecalho">
         <div>
             <img class="display" src="./img/banner.jpg" alt="">
         </div>
         <div class="bloco1">
-            <h1 class="txtBloco1">Quem sou eu!</h1>
-            <h2 class="txtBloco2">Designer | Front-Ender | Fullstack | Marketing</h2>
-            <p class="txtBloco3">Seja bem-vindo ao meu portifólio online, onde transformamos empresas com marketing digital! Estamos aqui para levar sua marca às alturas inexploradas e além. Prepare-se para uma jornada que o levará a novos horizontes de sucesso online.</p>
+            <h1 id="txtQuem" class="txtBloco1">Quem sou eu!</h1>
+            <h2 id="txtDesi" class="txtBloco2">Designer | Front-Ender | Fullstack | Marketing</h2>
+            <p id="txtSeja" class="txtBloco3">Seja bem-vindo ao meu portifólio online, onde transformamos empresas com marketing digital! Estamos aqui para levar sua marca às alturas inexploradas e além. Prepare-se para uma jornada que o levará a novos horizontes de sucesso online.</p>
         </div>
         <div class="bloco2">
             <img class="astro" src="./img/astro.jpg" alt="">
@@ -43,37 +59,37 @@
         </div>
 
         <div class="desevBlo02">
-            <h1 class="txtdesevBlo02Titulo">Profissional com foco no resultado!</h2>
-            <p class="txtdesevBlo02Texto">Satisfação garantida com trabalhos realizados de excelente qualidade. Que geraram satisfação aos clientes e principlamente retorno do investimento aplicado nos projetos!</p>
+            <h1 id="txtProfiss" class="txtdesevBlo02Titulo">Profissional com foco no resultado!</h2>
+            <p id="txtSati" class="txtdesevBlo02Texto">Satisfação garantida com trabalhos realizados de excelente qualidade. Que geraram satisfação aos clientes e principlamente retorno do investimento aplicado nos projetos!</p>
         </div>
 
     </section>
 
     <section class="bloco">
-        <h1>Serviços</h2>
+        <h1 id="txtServ">Serviços</h2>
         <ul>
-            <li class="box"><h3>Marketing Online</h3><p class="text">"Impulsione sua marca para o espaço digital com nosso Marketing Online personalizado. 🚀"</p></li>
-            <li class="box"><h3>Criação de Redes Sociais</h3><p class="text">"Construa comunidades estelares! Deixe-nos criar e gerenciar suas redes sociais com impacto."</p></li>
-            <li class="box"><h3>Customização de Site</h3><p class="text">"Sites únicos, como estrelas no céu. Personalizamos sua presença online para brilhar."</p></li>
-            <li class="box"><h3>SSL - Segurança</h3><p class="text">"Navegue com segurança intergaláctica! Protegemos seu site com SSL de última geração."</p></li>
-            <li class="box"><h3>Google Ads</h3><p class="text">"Destaque-se na galáxia do Google! Aumente sua visibilidade com anúncios eficazes."</p></li>
-            <li class="box"><h3>Google Analytics</h3><p class="text">"Decifre o universo de dados! Analise seu desempenho online com Google Analytics."</p></li>
-            <li class="box"><h3>Google Tag Manager</h3><p class="text">"Controle total da navegação! Simplificamos com o Google Tag Manager."</p></li>
-            <li class="box"><h3>Mídia Impressas</h3><p class="text">"Comunicados intergalácticos! Criamos materiais impressos que contam sua história."</p></li>
+            <li class="box"><h3 id="txtMark">Marketing Online</h3><p id="txtMarke" class="text">"Impulsione sua marca para o espaço digital com nosso Marketing Online personalizado. 🚀"</p></li>
+            <li class="box"><h3 id="txtCria">Criação de Redes Sociais</h3><p id="txtCriac" class="text">"Construa comunidades estelares! Deixe-nos criar e gerenciar suas redes sociais com impacto."</p></li>
+            <li class="box"><h3 id="txtCust">Customização de Site</h3><p id="txtCusto" class="text">"Sites únicos, como estrelas no céu. Personalizamos sua presença online para brilhar."</p></li>
+            <li class="box"><h3 id="txtSsl">SSL - Segurança</h3><p id="txtSsls" class="text">"Navegue com segurança intergaláctica! Protegemos seu site com SSL de última geração."</p></li>
+            <li class="box"><h3 id="txtGoog">Google Ads</h3><p id="txtGoogl" class="text">"Destaque-se na galáxia do Google! Aumente sua visibilidade com anúncios eficazes."</p></li>
+            <li class="box"><h3 id="txtGooga">Google Analytics</h3><p id="txtGoogan" class="text">"Decifre o universo de dados! Analise seu desempenho online com Google Analytics."</p></li>
+            <li class="box"><h3 id="txtTag">Google Tag Manager</h3><p id="txtTage" class="text">"Controle total da navegação! Simplificamos com o Google Tag Manager."</p></li>
+            <li class="box"><h3 id="txtMid">Mídia Impressas</h3><p id="txtMidi" class="text">"Comunicados intergalácticos! Criamos materiais impressos que contam sua história."</p></li>
         </ul>
     </section>
 
     <section>
-        <h1>Galeria</h1>
+        <h1 id="txtGal">Galeria</h1>
         <ul>
-            <li class="boxImage"><h3>Identidade Visual</h3><img class="bimage" src="img/pj01.jpg" alt="" onclick="abrirGaleria('img/imgD01.jpg')"></li>
-            <li class="boxImage"><h3>Criação de Mapas</h3><img class="bimage" src="img/pj02.jpg" alt="" onclick="abrirGaleria('img/imgD02.jpg')"></li>
-            <li class="boxImage"><h3>Rede Social</h3><img class="bimage" src="img/pj03.jpg" alt="" onclick="abrirGaleria('img/imgD03.jpg')"></li>
-            <li class="boxImage"><h3>Embalagens</h3><img class="bimage" src="img/pj04.jpg" alt="" onclick="abrirGaleria('img/imgD04.jpg')"></li>
-            <li class="boxImage"><h3>Ebooks</h3><img class="bimage" src="img/pj05.jpg" alt="" onclick="abrirGaleria('img/imgD05.jpg')"></li>
-            <li class="boxImage"><h3>Logo Marca</h3><img class="bimage" src="img/pj06.jpg" alt="" onclick="abrirGaleria('img/imgD06.jpg')"></li>
-            <li class="boxImage"><h3>Panfletos</h3><img class="bimage" src="img/pj07.jpg" alt="" onclick="abrirGaleria('img/imgD07.jpg')"></li>
-            <li class="boxImage"><h3>Criação de ppt</h3><img class="bimage" src="img/pj08.jpg" alt="" onclick="abrirGaleria('img/imgD08.jpg')"></li>
+            <li class="boxImage"><h3 id="txtIden">Identidade Visual</h3><img class="bimage" src="img/pj01.jpg" alt="" onclick="abrirGaleria('img/imgD01.jpg')"></li>
+            <li class="boxImage"><h3 id="txtMap">Criação de Mapas</h3><img class="bimage" src="img/pj02.jpg" alt="" onclick="abrirGaleria('img/imgD02.jpg')"></li>
+            <li class="boxImage"><h3 id="txtRed">Rede Social</h3><img class="bimage" src="img/pj03.jpg" alt="" onclick="abrirGaleria('img/imgD03.jpg')"></li>
+            <li class="boxImage"><h3 id="txtEmb">Embalagens</h3><img class="bimage" src="img/pj04.jpg" alt="" onclick="abrirGaleria('img/imgD04.jpg')"></li>
+            <li class="boxImage"><h3 id="txtEbo">Ebooks</h3><img class="bimage" src="img/pj05.jpg" alt="" onclick="abrirGaleria('img/imgD05.jpg')"></li>
+            <li class="boxImage"><h3 id="txtLog">Logo Marca</h3><img class="bimage" src="img/pj06.jpg" alt="" onclick="abrirGaleria('img/imgD06.jpg')"></li>
+            <li class="boxImage"><h3 id="txtPan">Panfletos</h3><img class="bimage" src="img/pj07.jpg" alt="" onclick="abrirGaleria('img/imgD07.jpg')"></li>
+            <li class="boxImage"><h3 id="txtPpt">Criação de ppt</h3><img class="bimage" src="img/pj08.jpg" alt="" onclick="abrirGaleria('img/imgD08.jpg')"></li>
             
             <!-- #region     
             <li class="boxImage"><h3>Mídia Impressas</h3><img class="bimage" src="img/pj09.jpg" alt=""></li>
@@ -84,11 +100,10 @@
         </ul>
     </section>
 
-    <a class="btn" href="https://wa.me/21979702046">Entrar em contato!</a> 
+    <a class="btn" id="txtEnt" href="https://wa.me/21979702046">Entrar em contato!</a> 
     
     <footer>
-        <p class="pfooter">&copy;Copyright - Paulo Júnior Marketing Online | Marketing e Publicidade Online</p>
+        <p class="pfooter" id="txtCop">&copy;Copyright - Paulo Júnior Marketing Online | Marketing e Publicidade Online</p>
     </footer>
-    <script src="./js/galeria.js"></script>
 </body>
 </html>
