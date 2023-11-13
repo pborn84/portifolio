@@ -29,7 +29,7 @@ function alterarIdioma(idioma) {
             'txtMark': 'Marketing Online',
             'txtMarke':'Impulsione sua marca para o espaço digital com nosso Marketing Online personalizado. 🚀',
             'txtCria': 'Criação de Redes Sociais',
-            "txtMark": 'Construa comunidades estelares! Deixe-nos criar e gerenciar suas redes sociais com impacto.',
+            "txtCriac": 'Construa comunidades estelares! Deixe-nos criar e gerenciar suas redes sociais com impacto.',
             'txtCust': 'Customização de Site',
             'txtCusto': 'Sites únicos, como estrelas no céu. Personalizamos sua presença online para brilhar',
             'txtSsl': 'SSL - Segurança',
@@ -52,7 +52,7 @@ function alterarIdioma(idioma) {
             'txtPan': 'Panfletos',
             'txtPpt': 'Criação de ppt',
             'txtEnt': 'Entrar em contato!',
-            'txtCop': '&copy;Copyright - Paulo Júnior Marketing Online | Marketing e Publicidade Online', 
+            'txtCop': 'Copyright - Paulo Júnior Marketing Online | Marketing e Publicidade Online', 
 
         },
         'en':{
@@ -65,6 +65,7 @@ function alterarIdioma(idioma) {
             'txtMark': 'Online Marketing',
             'txtMarke': 'Boost your brand into the digital space with our personalized Online Marketing. 🚀',
             'txtCria': 'Creation of Social Networks',
+            'txtCriac': 'Build stellar communities! Let us create and manage your social networks with impact.',
             'txtCust': 'Site Customization',
             'txtCusto': 'Unique sites, like stars in the sky. We customize your online presence to shine.',
             'txtSsl': 'SSL - Security',
@@ -87,7 +88,7 @@ function alterarIdioma(idioma) {
             'txtPan': 'Pamphlets',
             'txtPpt': 'Creation of PPT',
             'txtEnt': 'Contact Us!',
-            'txtCop': '&copy; Copyright - Paulo Júnior Online Marketing | Online Marketing and Advertising'
+            'txtCop': 'Copyright - Paulo Júnior Online Marketing | Online Marketing and Advertising'
         }
 
     }
